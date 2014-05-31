@@ -1,0 +1,10 @@
+﻿<div class="container">
+    <h2>View 2</h2>
+    valueFamily:
+    <br />
+    <input type="text" data-ng-model="value" />
+    <br />
+    <ul>
+        <li data-ng-repeat="entity in entities | filter:value | orderBy:'valueFamily'">{{entity.valueFamily | uppercase}} - {{entity.value | lowercase}}</li>
+    </ul>
+</div>

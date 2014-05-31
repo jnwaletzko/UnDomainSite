@@ -1,0 +1,26 @@
+﻿<div class="container">
+    <h2>View 1</h2>
+    ValueFamily:
+    <input type="text" data-ng-model="filter.valueFamily" />
+    <br />
+    <ul>
+        <li data-ng-repeat="entity in entities | filter:filter.valueFamily | orderBy:'ID'">{{entity.ID}} - {{entity.Type}} - {{entity.ValueFamily}} - {{entity.Value}} - {{entity.ParentID}}</li>
+    </ul>
+
+    <br />
+    Entity Type:
+    <input type="text" data-ng-model="newEntity.type" />
+    <br />
+    Entity Value Family:
+    <input type="text" data-ng-model="newEntity.valueFamily" />
+    <br />
+    Entity Value:
+    <input type="text" data-ng-model="newEntity.value" />
+    <br />
+    Entity ParentID:
+    <input type="text" data-ng-model="newEntity.parentID" />
+    <br />
+
+    <button data-ng-click="addEntity()">Add Entity</button>
+    <a href="#/view2">View 2</a>
+</div>

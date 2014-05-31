@@ -80,6 +80,11 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="index.html" />
+    <Content Include="Partials\View1.html" />
+    <Content Include="Partials\View2.html" />
+    <Content Include="Scripts\angular-resource.min.js" />
+    <Content Include="Scripts\angular-route.min.js" />
+    <Content Include="Scripts\angular.min.js" />
     <Content Include="Scripts\EntityController.js" />
     <Content Include="Scripts\undomainApp.js" />
     <Content Include="Web.config" />
