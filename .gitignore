@@ -213,3 +213,5 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+UndomainWebAPI/UndomainWebAPI/App_Data/UndomainWebAPIContext-20140528172812.mdf
+UndomainWebAPI/UndomainWebAPI/App_Data/UndomainWebAPIContext-20140528172812_log.ldf
