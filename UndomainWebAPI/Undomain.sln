@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UndomainWebAPI", "UndomainWebAPI\UndomainWebAPI.csproj", "{82B6CB96-FA61-4B95-A6DB-3822AA223CCD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Undomain", "UndomainWebAPI\Undomain.csproj", "{82B6CB96-FA61-4B95-A6DB-3822AA223CCD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
